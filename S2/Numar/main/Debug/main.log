@@ -1,0 +1,11 @@
+﻿  main.cpp
+  NumberList.cpp
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(11,17): error C2597: illegal reference to non-static member 'NumberList::count'
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(11,17): error C3867: 'NumberList::count': non-standard syntax; use '&' to create a pointer to member
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,15): error C2597: illegal reference to non-static member 'NumberList::count'
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,15): error C3867: 'NumberList::count': non-standard syntax; use '&' to create a pointer to member
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,15): error C2105: '++' needs l-value
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,17): error C2597: illegal reference to non-static member 'NumberList::numbers'
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,17): error C3867: 'NumberList::numbers': non-standard syntax; use '&' to create a pointer to member
+C:\Users\andre\OneDrive\Desktop\POO Lab\S2\Numar\main\NumberList.cpp(13,17): error C2109: subscript requires array or pointer type
+  Generating Code...

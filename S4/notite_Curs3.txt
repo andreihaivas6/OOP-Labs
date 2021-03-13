@@ -1,0 +1,13 @@
+Liste de initializare - pot lipsi maxim o dimenisune
+
+Constructori:
+- implicit(default)
+- explicit(cu parametri)
+
+private:
+	MyClass();
+codul compileaza 
+nu poti crea obiecte, dar poti crea pointeri la acea clasa
+
+Date d(1);  // constructor explicit
+Date d2 = d;   // constructor de copiere ( = )

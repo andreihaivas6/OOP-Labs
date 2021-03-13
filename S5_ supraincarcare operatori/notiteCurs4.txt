@@ -1,0 +1,11 @@
+Number& Number::operator= (const Number& d);
+	trbuie & la tipul returnat mereu cand returnam *this
+	daca returnam un obiect de tipul Number diferit de *this, nu trebuie &
+
+pt operatorul de asignare (move assignment) tipul returnat trebuie sa fie & de tipul clasei
+(pt unele operatii)
+Number n1, n2, n3;
+n1 = n2 = n3;
+daca ar fi fost void ->
+	 (n2 = n3) dadea void 
+	 iar (n1 = void) nu avea sens

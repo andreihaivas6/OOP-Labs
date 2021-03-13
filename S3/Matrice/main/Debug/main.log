@@ -1,0 +1,10 @@
+﻿  Canvas.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(16,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(17,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(60,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(61,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(74,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\main\Canvas.cpp(77,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  main.vcxproj -> D:\Facultate\___Probleme Info___\_POO Lab__\S3\Matrice\Debug\main.exe

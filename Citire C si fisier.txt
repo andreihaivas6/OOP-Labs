@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+char sir[100];
+FILE* in = fopen("fisier.txt", "rt");
+fclose(in);
+
+
+// "w" -> write (creaza un fisier in care se va scrie)
+// "r" -> read  (citeste)
+// "a" -> append (scrie in continuare unui fisier deja existent)
+
+Fisiere normale: "w+" -> write + read, si creeaza fisierul daca nu exista sau il goleste
+		 "r+" -> write + read, nu creeaza, nu sterge
+
+scanf("%s", sir);	// citeste sir de la tastatura (se opreste la primul spatiu) " "
+scanf("%d", &numar);	// citeste un numar
+			// trebuie & (adresa de memorie)
+printf("%s", sir);	// afiseaza sirul pe ecran
+
+// %s -> sir de caractere
+// %c -> caracter
+// %d -> numar intreg
+// %f -> numar real
+// %l -> long
+
+fscanf(in, "%s", sir);	// citeste sir din fisier
+fprintf(in, "%s", sir);	// scrie sir in fisier
+
+gets_s(sir);		// citeste linie de la tastatura (se opreste la finalul randului) fara "\n"
+fgets(sir, 99, stdin);  // citeste linie de la tastatura ca sir de caractere (idem) are si "\n"
+fgets(sir, 99, in);	// citeste linie din fisier ca sir de caractere 
+fputs(sir, in); 	// scrie sir in fisier

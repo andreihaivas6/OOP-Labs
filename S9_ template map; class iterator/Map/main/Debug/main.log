@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\Map.h(111,1): error C2662: 'int Map<int,const char *>::keyPosition(K)': cannot convert 'this' pointer from 'const Map<int,const char *>' to 'Map<int,const char *> &'
+          with
+          [
+              K=int
+          ]
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\Map.h(111,7): message : Conversion loses qualifiers
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\Map.h(27,6): message : see declaration of 'Map<int,const char *>::keyPosition'
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\Map.h(109): message : while compiling class template member function 'bool Map<int,const char *>::Includes(const Map<int,const char *> &) const'
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\main.cpp(38): message : see reference to function template instantiation 'bool Map<int,const char *>::Includes(const Map<int,const char *> &) const' being compiled
+C:\Users\andre\OneDrive\Desktop\POO Lab\S9\Map\main\main.cpp(9): message : see reference to class template instantiation 'Map<int,const char *>' being compiled

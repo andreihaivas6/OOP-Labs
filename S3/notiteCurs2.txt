@@ -1,0 +1,25 @@
+pointer 
+- variabila de sine statatoare
+referinta 
+- nu e de sine statatoare 
+- trebuie initializata
+
+precompilare - modifica textul fizic
+(NULL- macro, #include, inline)
+compilare 
+linkare
+
+orice variabila poate sa fie atribuita cu NULL
+dar nu si cu nullptr
+
+const scris la inceput  - se refera la cuvantul din dreapta lui
+			- altfel, se referea la cuvantul din stanga lui 
+(DOAR UN cuvant, inclusiv * e cuvant)
+int * const * p - pointer la pointer constant la o valoare int 
+( de la dreapta la stanga )
+
+friend, const, private - specificator
+friend - acceseaza orice e in clasa, dar NU apartine clasei 
+(de asta nu are acces la this;
+de asta obiectul trebuie dat ca parametru)
+

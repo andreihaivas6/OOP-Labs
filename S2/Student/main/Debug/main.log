@@ -1,0 +1,6 @@
+﻿  Student.cpp
+  functions.cpp
+  main.cpp
+  Generating Code...
+D:\POO\S2\Student\main\main.cpp(19,43): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  main.vcxproj -> D:\POO\S2\Student\Debug\main.exe

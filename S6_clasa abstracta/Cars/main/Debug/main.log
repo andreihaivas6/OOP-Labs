@@ -1,0 +1,16 @@
+﻿  Circuit.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Dacia.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Ford.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  main.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Mazda.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Mercedes.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Toyota.cpp
+D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\main\Car.h(12,7): warning C4101: 'x': unreferenced local variable
+  Generating Code...
+  main.vcxproj -> D:\Facultate\___Probleme Info___\_POO Lab__\S6\Cars\Debug\main.exe

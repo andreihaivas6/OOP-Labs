@@ -1,0 +1,18 @@
+class Math
+{
+	//int x;
+	static int x;
+public:
+	Math() = delete; // pentru ca exista doar functii statice
+	//int Add(int a, int b);
+	static int Add(int a, int b, int c);
+	static int Add(double a, double b);
+	static int Add(double a, double b, double c);
+	static int Mul(int a, int b);
+	static int Mul(int a, int b, int c);
+	static int Mul(double a, double b);
+	static int Mul(double a, double b, double c);
+	static int Add(int count, ...); // sums up a list of integers
+	static char* Add(const char* a, const char* b);
+};
+int Math::x = 19;
